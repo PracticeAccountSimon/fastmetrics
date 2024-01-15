@@ -1,7 +1,6 @@
 from numba import vectorize
 import numpy as np
 
-
 @vectorize
 def generate_confusion_matrix(x, y):
     """
